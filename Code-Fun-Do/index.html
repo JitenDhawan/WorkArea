@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Match Fun</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+	<section ng-app="myApp" ng-controller="myCtrl">
+		<div class="outer" ng-model="obfirst" style="background-color: {{obfirst}};">
+			<div class="inputs" style="background-color: {{bbfirst}};">
+				Box Background Color:<input ng-model="bbfirst" value="{{bbfirst}}" style="margin-left: 3.6%;"><br>
+				Outer Background Color:<input ng-model="obfirst" value="{{obfirst}}" style="margin-left: 1%;"><br>
+				Inner Background Color:<input ng-model="ibfirst" value="{{ibfirst}}" style="margin-left: 1.7%;"><br>
+				Picture URL: <input ng-model="pfirst" value="pfirst" style="margin-left: 21.35%;"><br>
+				Name: <input ng-model="nfirst" value="nfirst" style="margin-left: 33.25%;"><br>
+			</div>
+			<div class="inner" style="background-color: {{ibfirst}};">
+				<img src="{{pfirst}}"><br>
+				<div class="name"><h2>{{nfirst}}</h2></div>
+			</div>
+		</div>
+		<div class="outer" ng-model="obsecond" style="background-color: {{obsecond}};">
+			<div class="inputs" style="background-color: {{bbsecond}};">
+				Box Background Color:<input ng-model="bbsecond" value="{{bbsecond}}" style="margin-left: 3.6%;"><br>
+				Outer Background Color:<input ng-model="obsecond" value="{{obsecond}}" style="margin-left: 1%;"><br>
+				Inner Background Color:<input ng-model="ibsecond" value="{{ibsecond}}" style="margin-left: 1.7%;"><br>
+				Picture URL: <input ng-model="psecond" value="psecond" style="margin-left: 21.35%;"><br>
+				Name: <input ng-model="nsecond" value="nsecond" style="margin-left: 33.25%;"><br>
+			</div>
+			<div class="inner" style="background-color: {{ibsecond}};">
+				<img src="{{psecond}}"><br>
+				<div class="name"><h2>{{nsecond}}</h2></div>
+			</div>
+		</div>
+		<div class="outer" ng-model="obthird" style="background-color:{{obthird}};">
+			<div class="inputs" style="background-color: {{bbthird}};">
+				Box Background Color:<input ng-model="bbthird" value="{{bbthird}}" style="margin-left: 3.6%;"><br>
+				Outer Background Color:<input ng-model="obthird" value="{{obthird}}" style="margin-left: 1%;"><br>
+				Inner Background Color:<input ng-model="ibthird" value="{{ibthird}}" style="margin-left: 1.7%;"><br>
+				Picture URL: <input ng-model="pthird" value="pthird" style="margin-left: 21.35%;"><br>
+				Name: <input ng-model="nthird" value="nthird" style="margin-left: 33.25%;"><br>
+			</div>
+			<div class="inner" style="background-color: {{ibthird}};">
+				<img src="{{pthird}}"><br>
+				<div class="name"><h2>{{nthird}}</h2></div>
+			</div>
+		</div>
+	</section>
+</body>
+<script src="script.js"></script>
+</html>
