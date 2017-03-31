@@ -1,0 +1,55 @@
+html,body{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+section{
+	width: 100%;
+	border: 1px solid black;
+	white-space: nowrap;
+	height: 100%;
+}
+div.outer{
+	width: 33.33%;
+	height: 100%;
+	display: inline-block;
+	margin-right: -0.3%;
+}
+div.inputs{
+	display: block;
+	position: relative;
+	border-radius: 10px;
+	top: 0px;
+	margin: auto;
+	margin-top: 4%;
+	height: 20%;
+	width: 85%;
+	background-color: snow;
+	padding-left: 3%;
+	padding-top: 3%;
+}
+div.inner{
+	position: relative;
+	overflow: hidden;
+	width: 85%;
+	border-radius: 10px;
+	margin: auto;
+	height: 55%;
+	margin-top: 15%;
+}
+img{
+	display: block;
+	height: 60%;
+	width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8%;
+}
+div.name{
+	text-align: center;
+	width: 100%;
+	margin-top: -5%;
+	font-size: 140%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
