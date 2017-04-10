@@ -7,3 +7,4 @@ Languages Used:-
 * Javascript
 ### [Api used](https://www.mediawiki.org/wiki/API:Main_page)
 ### [Live Web Page](http://home.iitk.ac.in/~djiten/Wikipedia_Search/)
+###### PS - Write correctly the name of article and it is case sensitive.
