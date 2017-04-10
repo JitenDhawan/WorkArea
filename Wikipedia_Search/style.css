@@ -1,0 +1,45 @@
+html,body{
+	height: 100%;
+}
+#report{
+	text-align: center;
+	margin-top:7%;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+#heading{
+	font-size: 400%;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+#output{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 120%;
+}
+ul.tab{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	overflow: hidden;
+	list-style-type: none;
+	background-color: darkslategrey;
+	padding-top: 1%;
+}
+ul.tab li{
+	float: left;
+	outline: none;
+	width: 33%;
+	color: azure;
+}
+#mbtab{
+	display: none;
+	position: relative;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	list-style-type: none;
+	background-color: darkslategrey;
+	padding-top: 1%;
+}
+#mbtab{
+	color: azure;
+}

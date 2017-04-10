@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wikipedia Summary</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+</head>
+<body style="background-color: ghostwhite;">
+	<ul class="tab">
+		<li>Article Name:<input type="text" name="content" id="search"></li>
+		<li>Language:<select id="language"></li>
+			<option value="English">English</option>
+		</select><br><br>
+		<li><input type="submit" name="Submit" onclick="search()"></li>
+	</ul>
+	<div id="report">
+		<div id="heading">Wikipedia Summary</div><br>
+		<div id="output">
+			This search will help in getting the summary of content of articles present in the Wikipedia. Just write the aritcle name correctly and Submit it. Summary in Different languages feature will come soon. Thanks for visiting.
+		</div>	
+	</div>
+</body>
+</html>
