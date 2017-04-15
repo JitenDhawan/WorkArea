@@ -18,7 +18,11 @@ function search(){
     name = name.split(" ");
 	var finalSearch = "";
 	for(var i =0; i < name.length; i++){
-    finalSearch=finalSearch+name[i]
+	var p=name[i][0].toUpperCase();
+    	finalSearch=finalSearch+p;
+    	for(var j=1; j<name[i].length;j++){
+    		finalSearch=finalSearch+name[i][j];
+    	}
     	if(i != name.length-1){
         	finalSearch=finalSearch+"%20";
     	}
